@@ -4,7 +4,7 @@ import json
 import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
 
-vk_session = vk_api.VkApi(token="f185453c27991cca4fbe371bd01f7d8c8239fd880b01e883de98a9b683df59772bdbdb00c632e75764e3f")
+vk_session = vk_api.VkApi(token="token")
 vk = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
 
